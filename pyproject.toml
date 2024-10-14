@@ -15,6 +15,11 @@ hyperopt = "^0.2.7"
 jupyter = "^1.1.1"
 evidently = "^0.4.38"
 joblib = "^1.4.2"
+pytest = "^8.3.3"
+pandas = {extras = ["pyarrow"], version = "^2.2.3"}
+boto3 = "1.35.0"
+awscli = "1.35.0"
+s3fs = "^2024.9.0"
 
 
 [tool.poetry.group.dev.dependencies]
